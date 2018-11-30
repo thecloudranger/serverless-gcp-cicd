@@ -12,6 +12,6 @@ exports.helloGreeting = (req, res) => {
         res.status(400).send('No name defined!');
     } else {
         console.log(req.body.name);
-        res.status(200).send('Hello ' + req.body.name);
+        res.status(200).send('Hello there ' + req.body.name);
     }
 };
